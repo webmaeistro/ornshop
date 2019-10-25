@@ -1,9 +1,9 @@
 {
-  "name": "OneShopper",
+  "name": "ornshop",
   "private": true,
   "description": "E-Commerce site with Gatsby and React",
-  "version": "0.1.0",
-  "author": "Rohit Gupta <rohitguptab33@gmail.com>",
+  "version": "0.2.0",
+  "author": "Martin Andersen <marander@protonmail.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "disqus-react": "^1.0.5",
@@ -46,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rohitguptab/OneShopper"
+    "url": "https://github.com/webmaeistro/ornshop"
   },
   "bugs": {
-    "url": "https://github.com/Rohitguptab/OneShopper/issues"
+    "url": "https://github.com/webmaeistro/ornshop/bugs"
   }
 }
