@@ -1,19 +1,19 @@
   <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
   <p align="center">
-    <a href="https://oneshopper.netlify.com/">
-      <img alt="OneShopper" src="https://github.com/Rohitguptab/OneShopper/blob/master/src/images/oneshopper-logo.png" width="200" />
+    <a href="https://OrnShop.netlify.com/">
+      <img alt="OrnShop" src="https://github.com/webmaeistro/ornshop/blob/master/src/images/OrnShop-logo.png" width="200" />
     </a>
   </p>
   <h1 align="center">
-    OneShopper
+    OrnShop
   </h1>
-  <img src="https://github.com/rohitguptab/OneShopper/blob/master/docs/screenshot.jpg" />
+  <img src="https://github.com/webmaeistro/ornshop/blob/master/docs/screenshot.jpg" />
   
 
-  Kick off your Ecommerce Website with OneShopper project you can build you site with this, We have used [Gatsby](https://www.gatsbyjs.org/) + [Contenful](https://www.gatsbyjs.org/packages/gatsby-source-contentful/?=Contenful) and [snipcart](https://www.gatsbyjs.org/packages/gatsby-plugin-snipcart/?=snipcart).
+  Kick off your Ecommerce Website with OrnShop project you can build you site with this, We have used [Gatsby](https://www.gatsbyjs.org/) + [Contenful](https://www.gatsbyjs.org/packages/gatsby-source-contentful/?=Contenful) and [snipcart](https://www.gatsbyjs.org/packages/gatsby-plugin-snipcart/?=snipcart).
   
   Live Demo:
-  https://oneshopper.netlify.com
+  https://OrnShop.netlify.com
 
 
   ## 🚀 Quick start
@@ -24,15 +24,15 @@
 
       ```sh
       # Clone this Repositories
-      gatsby new OneShopper https://github.com/Rohitguptab/OneShopper.git
+      gatsby new OrnShop https://github.com/webmaeistro/ornshop.git
       ```
 
   1.  **Setup Contentful Models**
 
-      Use [contentful-cli](https://github.com/contentful/contentful-cli) to import the models from oneshopper.json
+      Use [contentful-cli](https://github.com/contentful/contentful-cli) to import the models from OrnShop.json
 
       ```
-      contentful space --space-id <CONTENTFUL_SPACE_ID> import --content-file oneshopper.json
+      contentful space --space-id <CONTENTFUL_SPACE_ID> import --content-file OrnShop.json
       ```
 
   1.  **Start developing.**
@@ -40,7 +40,7 @@
       Navigate into your new site’s directory and start it up.
 
       ```sh
-      cd OneShopper
+      cd OrnShop
       npm install
       gatsby develop
       ```
@@ -63,7 +63,7 @@
 
       _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-      Open the `OneShopper` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+      Open the `OrnShop` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 
   ## 🎓 Learning Gatsby
@@ -76,6 +76,6 @@
 
   ## 💫 Deploy
 
-  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Rohitguptab/OneShopper)
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/webmaeistro/ornshop)
 
   <!-- AUTO-GENERATED-CONTENT:END -->

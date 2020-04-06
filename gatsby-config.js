@@ -24,13 +24,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OrnShop`,
+        name: `Ørn Forlag Netthandel`,
         short_name: `ornshop`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/oneshopper-logo.png`,
+        display: `standalone`,
+        icon: `src/images/ornshop-logo.png`,
       },
     },
     {
