@@ -1,7 +1,7 @@
 var dotenv = require("dotenv");
 dotenv.config();
 
-const { spaceId, accessToken, snipcart } = process.env;
+// const { spaceId, accessToken, snipcart } = process.env;
 
 module.exports = {
   siteMetadata: {
@@ -34,16 +34,18 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-contentful",
+      resolve: `gatsby-source-contentful`,
       options: {
-        spaceId,
-        accessToken
-      }
+        spaceId: process.env.spaceId,
+        // Learn about environment variables: https://gatsby.app/env-vars
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        downloadLocal: true,
+      },
     },
     {
       resolve: "gatsby-plugin-snipcart",
       options: {
-        apiKey: snipcart,
+        apiKey: process.env.SNIPCART,
         autopop: true,
       },
     },

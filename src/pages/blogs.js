@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { graphql } from 'gatsby'
 
 class BlogsPost extends React.Component {
   constructor(props) {
@@ -40,7 +41,7 @@ class BlogsPost extends React.Component {
     return (
       <React.Fragment>
         <ul className="blog-list" onScroll={this.onScrollEvent}>
-          {data.data.allContentfulBlogs.edges.slice(0, NoOfPost).map(items => (
+          {data.data.allContentfulContentType.edges.slice(0, NoOfPost).map(items => (
             <li>
               <div className="post-item template-square columned">
                 <div className="post-thumbnail">

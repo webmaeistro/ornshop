@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 class About extends React.Component {
     render() {
         return ( <
@@ -25,7 +26,7 @@ class About extends React.Component {
                     <p>Use the Gatsby CLI to Clone this site.</p>
                     <code>
                         # Clone this Repositories<br></br>
-                        gatsby new OneShopper https://github.com/Rohitguptab/OneShopper.git
+                        gatsby new OneShopper https://github.com/webmaeistro/ornshop.git
                     </code>
                     <h3>Start developing.</h3>
                     <p>Navigate into your new site’s directory and start it up.</p>
